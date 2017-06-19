@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Johan Berntsson</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/custom.css">
+
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+
+  </head>
+  <body>
+
+    <div class="header container">
+      <div class="row">
+        <div class="twelve columns">
+          <nav>
+            <ul>
+              <li class="myname"><a href="/index.html">Johan Berntsson</a></li>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/projects.html">Projects</a></li>
+              <li><a href="/articles.html">Articles</a></li>
+              <li><a href="/resume.html">Resume</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <div class="container">
+  <div class="row">
+    <div class="twelve columns">
+
+      <h1>Projects</h1>
+
+      This is a curated list of projects that I have worked on throughout
+      the years.
+
+    </div>
+  </div>
+
+  <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="my-master's-thesis:-"comparing-a-clipmap-to-a-sparse-voxel
+--octree-for-global-illumination""><a href="/posts/masters_thesis.html">My Master's Thesis: "Comparing a Clipmap to a Sparse Voxel
+  Octree for Global Illumination"</a></h2>
+      
+      <p>
+        Read more about my master's thesis <a href="/posts/masters_thesis.html">here</a>
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="/posts/masters_thesis.html"><img src="/img/gallery/mtgallery0.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="regl"><a href="https://github.com/regl-project/regl">regl</a></h2>
+      
+      <p>
+        I was once a very active contributor to the open source WebGL
+        framework regl. My many contributions include: writing many
+        code examples for the purpose of making the framework easier
+        to learn for beginners, reporting and fixing many bugs,
+        writing unit tests, writing and improving the documentation,
+        and I have also written benchmarking and profiling tools for
+        the framework.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/regl-project/regl"><img src="/img/gallery/regl.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="regl-cnn"><a href="https://github.com/Erkaman/regl-cnn">regl-cnn</a></h2>
+      
+      <p>
+        Using the WebGL framework regl, I implemented a
+        handwritten digit recognizer on the GPU. The main purpose was
+        to demonstrate that regl can be used to greatly simplify GPGPU
+        programming using WebGL.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/Erkaman/regl-cnn"><img src="/img/gallery/regl-cnn.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="wireframe-world"><a href="https://github.com/Erkaman/wireframe-world">wireframe-world</a></h2>
+      
+      <p>
+        A small demo that renders an infinitely scrolling world with
+        WebGL. Implemented using the framework regl.
+      </p>
+      <p>
+        The geometry and the textures of the world is entirely
+        procedurally generated.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/Erkaman/wireframe-world"><img src="/img/gallery/wireframe.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="shadow-volume.js"><a href="https://www.youtube.com/watch?v=oO0LJWy5COg">shadow-volume.js</a></h2>
+      
+      <p>
+        A reference implementation of shadow volumes in WebGL using
+        regl that I implemented with the guidance of <a href="https://github.com/mikolalysenko/">Mikola
+        Lysenko</a>. The main purpose was to demonstrate advanced
+        usage of the stencil buffer in regl.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://www.youtube.com/watch?v=oO0LJWy5COg"><img src="/img/gallery/shadow-volume.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="planar-reflection.js"><a href="https://www.youtube.com/watch?v=FUNAcjJHo8U">planar-reflection.js</a></h2>
+      
+      <p>
+        A small demo that renders reflections in a plane by using a trick
+        with the stencil buffer. It was written in the WebGL framework
+        regl.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://www.youtube.com/watch?v=FUNAcjJHo8U"><img src="/img/gallery/planar-reflection.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="deferred_shading.js"><a href="https://regl-project.github.io/regl/www/gallery/deferred_shading.js.html">deferred_shading.js</a></h2>
+      
+      <p>
+        A simple reference implementation of deferred
+        shading in WebGL. It was written in regl, and the main purpose was
+        demonstrating how to use MRT in regl. Some people have told me
+        that it doesn't work on their computers. Unfortunately, this
+        is due to browser extension loading issues(so basically, a bug
+        in the browser), and there's little
+        I can do about it :-(. So it may or may not run in your browser.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://regl-project.github.io/regl/www/gallery/deferred_shading.js.html"><img src="/img/gallery/deferred-shading.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="cloth.js"><a href="https://www.youtube.com/watch?v=scg33DHDnHc">cloth.js</a></h2>
+      
+      <p>
+        A simple cloth simulation implemented in WebGL, using the
+        framework regl. The simulation is based on the mass-spring
+        model originally described by Thomas Jakobsen in this <a href="http://graphics.cs.cmu.edu/nsp/course/15-869/2006/papers/jakobsen.htm">article</a>.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://www.youtube.com/watch?v=scg33DHDnHc"><img src="/img/gallery/cloth.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="gl-water2d"><a href="https://github.com/Erkaman/gl-water2d">gl-water2d</a></h2>
+      
+      <p>
+        A 2D water simulation based on Smoothed Particle Hydrodynamics
+        in Javascript. It implements some of the techniques described
+        in the paper <a href="http://www.ligum.umontreal.ca/Clavet-2005-PVFS/pvfs.pdf">Particle-based Viscoelastic Fluid Simulation</a>
+      </p>
+      <p>
+        An editor for making water simulations is provided, and tools
+        for recording such simulations are also provided(although they
+        are a bit clunky to use, currently).
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/Erkaman/gl-water2d"><img src="/img/gallery/water-edit.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="parle-cuda"><a href="https://github.com/Erkaman/parle-cuda">parle-cuda</a></h2>
+      
+      <p>
+        A reference implementation of the compression algorithm Run-Length Encoding in CUDA. You
+        can read the implementation details in my <a href="/posts/cuda_rle.html">article</a>.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/Erkaman/parle-cuda"><img src="/img/gallery/parle_scatter.png" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="gl-catmull-clark"><a href="https://github.com/Erkaman/gl-catmull-clark">gl-catmull-clark</a></h2>
+      
+      <p>
+        A reference implementation of <a href="https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface">Catmull-Clark subdivision
+        surfaces</a> in Javascript and WebGL.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/Erkaman/gl-catmull-clark"><img src="/img/gallery/subdivide.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="tess-opt"><a href="https://github.com/Erkaman/tess-opt">tess-opt</a></h2>
+      
+      <p>
+        This small application shows how we can use tessellation
+        shaders to make faster fragment shaders, using the techniques
+        described by Wang et al. in their paper Automatic
+        Shader Simplification using Surface Signal
+        Approximation. You can read more abut this in my <a href="/posts/tess_opt.html">article</a>.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/Erkaman/tess-opt"><img src="/img/gallery/tess_opt.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="glsl-worley"><a href="https://github.com/Erkaman/glsl-worley">glsl-worley</a></h2>
+      
+      <p>
+        A port of <a href="http://webstaff.itn.liu.se/~stegu/GLSL-cellular/GLSL-cellular-notes.pdf">Stephan
+        Gustavson's</a> implementation of Worley noise to WebGL
+        shaders. Worley noise can be used for many cool things, and one
+        possible application is procedural textures.
+      </p>
+      <p>
+        A simple demo of the technique is also provided.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/Erkaman/glsl-worley"><img src="/img/gallery/worley.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="gl-rock"><a href="https://github.com/Erkaman/gl-rock">gl-rock</a></h2>
+      
+      <p>
+        A simple script that implements procedural generation of rock
+        meshes. The script is used to implement a demo that renders
+        1000 unique rocks. Included is also an editor for making your own
+        procedural rocks.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/Erkaman/gl-rock"><img src="/img/gallery/1000rocks.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="pnp-gui"><a href="https://github.com/Erkaman/pnp-gui">pnp-gui</a></h2>
+      
+      <p>
+        pnp-gui implements a minimalistic Immediate Mode GUI toolkit
+        for WebGL. It is heavily inspired by <a href="https://github.com/ocornut/imgui">dear
+        imgui</a>. The toolkit allows you to design a GUI using
+        nothing but Javascript and WebGL, without having to write a
+        single line of HTML code.
+      </p>
+        <p>
+        I have used the toolkit in several of my other projects,
+        such as <a href="https://github.com/Erkaman/gl-water2d">gl-water2d</a>
+        and <a href="https://github.com/Erkaman/gl-catmull-clark">gl-catmull-clark</a>.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/Erkaman/pnp-gui"><img src="/img/gallery/pnp-gui-rabbit.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="glsl-godrays"><a href="https://github.com/Erkaman/glsl-godrays">glsl-godrays</a></h2>
+      
+      <p>
+        An implementation of a screen space-based volumetric light
+        scattering effect(in other words, godrays) in Javascript and
+        WebGL. It is based on the article <a href="http://http.developer.nvidia.com/GPUGems3/gpugems3_ch13.html">Volumetric
+        Light Scattering as a Post-Process</a>.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/Erkaman/glsl-godrays"><img src="/img/gallery/scattering.jpg" alt="img"></a>
+    </div>
+  </div>
+    <hr>
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="bloxel---developing-a-voxel-game-engine-in-java-using-opengl"><a href="http://www.cse.chalmers.se/~uffe/bachelor/kandidatarbetestartpaket/Final-Voxelspel.pdf">Bloxel - Developing a voxel game engine in Java using OpenGL</a></h2>
+      
+      <p>
+        This is my bachelor's thesis, where we developed a voxel game
+        engine from scratch in Java using OpenGL. I was mostly
+        responsible for implementing the rendering engine, and writing
+        a relatively advanced procedural world generator using <a href="https://en.wikipedia.org/wiki/Perlin_noise">Perlin
+        Noise</a>
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="http://www.cse.chalmers.se/~uffe/bachelor/kandidatarbetestartpaket/Final-Voxelspel.pdf"><img src="/img/gallery/03full_noise.jpg" alt="img"></a>
+    </div>
+  </div>
+    
+
+</div>
+
+
+
+    <div class="container">
+      <div class="footer">
+        <hr>
+        <ul>
+            <!--
+          <li><a href="mailto:arnebackeric@gmail.com" title="">  <img src="/img/email.png" alt="email"> </a></li>
+            -->
+          <li><a href="https://github.com/johanberntsson">  <img src="/img/github.png" alt="github"> </a></li>
+          <li><a href="https://www.linkedin.com/in/johanberntsson">  <img src="/img/linked-in.png" alt="linked-in"> </a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
