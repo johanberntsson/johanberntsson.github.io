@@ -19,4 +19,14 @@ This arpeggiator plugin for music production is based on the LV2 standard. It is
       </p>
     </text>
   </project>
+  <project>
+    <title>Drakmagi</title>
+    <href>https://github.com/johanberntsson/drakmagi</href>
+    <img>/img/drakmagi.png</img>
+    <text>
+        <p>
+            This is a Swedish interactive fiction game written in Inform
+      </p>
+    </text>
+  </project>
 </list>
