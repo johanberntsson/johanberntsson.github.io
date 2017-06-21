@@ -15,7 +15,17 @@ I was once a core developer in the open source OpenSimulator virtual worlds fram
     <img>/img/arpeggiator.png</img>
     <text>
         <p>
-This arpeggiator plugin for music production is based on the LV2 standard. It is inspired by the LMMS standard arpeggiator effect and can be added to effect chains in hosts such as QTractor to provide interesting bass lines and similar effects.
+            This arpeggiator plugin for music production is based on the LV2 standard. It is inspired by the LMMS standard arpeggiator effect and can be added to effect chains in hosts such as QTractor to provide interesting bass lines and similar effects.
+      </p>
+    </text>
+  </project>
+  <project>
+    <title>Vacation Gone Awry</title>
+    <href>https://github.com/johanberntsson/vacation-gone-awry</href>
+    <img>/img/drakmagi.png</img>
+    <text>
+        <p>
+            This is a huge interactive fiction game written in Inform
       </p>
     </text>
   </project>
