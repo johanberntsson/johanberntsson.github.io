@@ -20,6 +20,16 @@ I was once a core developer in the open source OpenSimulator virtual worlds fram
     </text>
   </project>
   <project>
+    <title>Rubydroid</title>
+    <href>https://github.com/johanberntsson/rubydroid</href>
+    <img>/img/rubydroid.png</img>
+    <text>
+        <p>
+            This is a ruby clone of the C64 game Paradroid with a new theme of modern robot graphics.
+      </p>
+    </text>
+  </project>
+  <project>
     <title>Vacation Gone Awry</title>
     <href>https://github.com/johanberntsson/vacation-gone-awry</href>
     <img>/img/vacation.png</img>
