@@ -20,6 +20,16 @@ I was once a core developer in the open source OpenSimulator virtual worlds fram
     </text>
   </project>
   <project>
+    <title>Spacespuds</title>
+    <href>https://github.com/johanberntsson/spacespuds</href>
+    <img>/img/spacespuds.png</img>
+    <text>
+        <p>
+            This is a simple but fun Android aracade game. Jet fighters from Earth have to stop the invasion of the evil Space Spuds.
+      </p>
+    </text>
+  </project>
+  <project>
     <title>Rubydroid</title>
     <href>https://github.com/johanberntsson/rubydroid</href>
     <img>/img/rubydroid.png</img>
