@@ -40,6 +40,16 @@ I was once a core developer of the open source OpenSimulator virtual worlds fram
     </text>
   </project>
   <project>
+    <title>The Wall</title>
+    <href>https://github.com/johanberntsson/thewall</href>
+    <img>/img/thewall.png</img>
+    <text>
+        <p>
+            A game for the Commodore 64 written in C using the cc65 cross compiler
+      </p>
+    </text>
+  </project>
+  <project>
     <title>Vacation Gone Awry</title>
     <href>https://github.com/johanberntsson/vacation-gone-awry</href>
     <img>/img/vacation.png</img>
